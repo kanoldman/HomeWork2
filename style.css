@@ -1,14 +1,32 @@
+body{
+	font-family: 'Roboto', sans-serif;	
+}
+.container{
+	border: 3px solid rgb(28, 169, 194);
+}
 input{
 	display: block;
 	margin: 0 0 10px 0;
 }
+h1, h2 {
+	/*font-family: 'Roboto', sans-serif;*/
+	padding: 10px;
+		font-size: 20px;
+}
+.lang{
+	display: block;
+	margin-bottom: 10px;
+	padding: 10px;
+}
 .entrance {
+	display: flex;
 	margin-bottom: 40px;
-	padding: 30px 60px;
+	padding: 10px;
 }
 .registration {
+	display: flex;
 	margin-bottom: 40px;
-	padding: 30px 60px;
+	padding: 10px;
 }
 .regBtn {
 	display: block;
@@ -21,4 +39,8 @@ input{
 select{
 	display: block;
 	margin: 0 0 10px 0;
+}
+.buttons-reg, .button-enter{
+	display: flex;
+	justify-content: space-between;
 }
