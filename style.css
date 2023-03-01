@@ -1,0 +1,21 @@
+input{
+	display: block;
+	margin: 0 0 10px 0;
+}
+.entrance {
+	margin-bottom: 40px;
+	padding: 30px 60px;
+}
+.registration {
+	margin-bottom: 40px;
+	padding: 30px 60px;
+}
+.regBtn {
+	display: block;
+	margin-top: 10px;
+	
+}
+select{
+	display: block;
+	margin: 0 0 10px 0;
+}
